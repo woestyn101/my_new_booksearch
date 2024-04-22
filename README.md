@@ -2,34 +2,34 @@
 
 ## Description
 
-This project challenged me to create a graphql and reac-app.
+This project challenged me to create a graphql and react-app.
 
 During this project I learned how to use:
 
-- service workers to set up the app.
-- create a manifest.json file
-- css loaders and load the styles.
+- apollo server
+- typeDefs and resolvers to define database schemas.
+- JWT for user authentication.
 - create a client side and server side.
-- enable an app to work offline
-- use lighthouse to check for an app's performance.
-- and indexedDB database.
-- deploy an app on Render.
+- create login and signup forms.
+- a mongodb database
+- deploy a fullstack app on Render.
 
 ## Link to web app
 
-https://my-pwa-app.onrender.com
+https://my-new-booksearch.onrender.com
 
 ## Installation
 
 - clone the repository
-- run npm install
-- run npm start
+- cd into the server folder and run npm install && npm start
+- cd into the client folder and run npm install && npm start
 - open the app on http://localhost:3000/
 
 ## Usage
 
-This app provides an easy and accessible interface for a customer
-to create and edit a text online and offline.
+This app provides an easy and accessible interface for a user to 
+search and save his/her favorite book titles.
+
 
 ## Screenshot of website
 
@@ -39,11 +39,14 @@ to create and edit a text online and offline.
 
 I used and modified code from the following resources:
 
-https://www.youtube.com/watch?v=4XT23X0Fjfk&list=PL4cUxeGkcC9gTxqJBcDmoi5Q2pzDusSL7
+https://coding-boot-camp.github.io/full-stack/render/deploy-mern-stack-with-render-guide
 
-https://www.youtube.com/watch?v=yZ26CXny3iI
+https://www.youtube.com/watch?v=Y0lDGjwRYKw&list=PL4cUxeGkcC9iK6Qhn-QLcXCXPQUov1U7f
 
-https://www.tutorialspoint.com/indexeddb/indexeddb_error_handling.htm
+https://www.youtube.com/watch?v=xMCnDesBggM&list=PL4cUxeGkcC9gUxtblNUahcsg0WLxmrK_y
+
+https://www.apollographql.com/tutorials/lift-off-part1/01-feature-overview-and-setup
+
 
 ## License
 
